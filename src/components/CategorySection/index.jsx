@@ -8,7 +8,7 @@ const CategorySection = (props) => {
   ).slice(0, props.limit);
 
   return (
-    <div className={styles.CategorySection}>
+    <div className={props.direction ===  "row" ? styles.row : styles.column}>
       <h2>{props.category}</h2>
       <div className={styles.articles}>
       {filtered.map((article, index) => (

@@ -1,10 +1,23 @@
-.categorySection h2 {
-  border-bottom: 1px solid black;
-  margin-bottom: 1rem;
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.articles {
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row .articles {
   display: flex;
   flex-direction: row;
+  gap: 20px;
+}
+
+.column .articles {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }

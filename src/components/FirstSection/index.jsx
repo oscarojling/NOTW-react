@@ -9,7 +9,7 @@ const FirstSection = () => {
     <div className={styles.FirstSection}>
       <Recent />
       <MainNewsArticle />
-      <CategorySection category="sport" limit={2} />
+      <CategorySection category="sport" limit={2} direction="column" />
     </div>
   )
 }
