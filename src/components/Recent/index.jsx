@@ -2,7 +2,8 @@ import RecentArticle from "../RecentArticle/index.jsx";
 import { articles } from "../../data/data.js";
 
 const Recent = () => {
-  const recent = articles.filter(article => article.category !== "sport").slice(0, 4)
+  const categories = ["world", "sweden", "entertainment", "crime"]
+  const recent = categories.map(category => articles.find(article.category) === category)
 
 return (
   <div>
