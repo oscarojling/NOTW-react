@@ -3,7 +3,10 @@ import { articles } from "../../data/data.js";
 
 const Recent = () => {
   const categories = ["world", "sweden", "entertainment", "crime"]
-  const recent = categories.map(category => articles.find(article.category) === category)
+
+  const recent = categories.map(category =>
+     articles.find(article => article.category === category))
+  
 
 return (
   <div>

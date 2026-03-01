@@ -1,5 +1,5 @@
 import CategorySection from "../CategorySection";
-import Recent from "../Recent";
+import Recent from "../RecentSection";
 import MainNewsArticle from "../MainNewsArticle";
 import styles from './FirstSection.module.css'
 
